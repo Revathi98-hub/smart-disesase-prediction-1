@@ -1,0 +1,137 @@
+{
+  "symptoms": [
+    {
+      "symptom": "headache",
+      "description": "Pain or discomfort in the head or neck region",
+      "severity": "mild",
+      "urgency": "low",
+      "conditions": ["tension headache", "migraine", "cluster headache", "sinus infection"],
+      "recommendations": ["Rest in a dark, quiet room", "Apply cold or warm compress", "Stay hydrated"],
+      "precautions": ["Avoid bright lights", "Limit screen time", "Monitor pain intensity"],
+      "workouts": ["Gentle neck stretches", "Light walking", "Deep breathing exercises"],
+      "diets": ["Magnesium-rich foods", "Avoid caffeine", "Stay hydrated with water"]
+    },
+    {
+      "symptom": "back pain",
+      "description": "Pain or stiffness in the back muscles or spine",
+      "severity": "moderate",
+      "urgency": "low",
+      "conditions": ["muscle strain", "herniated disc", "sciatica", "poor posture"],
+      "recommendations": ["Apply ice for acute pain", "Use heat therapy after 48 hours", "Maintain proper posture"],
+      "precautions": ["Avoid heavy lifting", "Use proper body mechanics", "Sleep on firm mattress"],
+      "workouts": ["Cat-cow stretches", "Pelvic tilts", "Wall sits", "Swimming"],
+      "diets": ["Anti-inflammatory foods", "Turmeric", "Fish rich in omega-3", "Green leafy vegetables"]
+    },
+    {
+      "symptom": "anxiety",
+      "description": "Feelings of worry, nervousness, or unease",
+      "severity": "moderate",
+      "urgency": "moderate",
+      "conditions": ["generalized anxiety disorder", "panic disorder", "social anxiety", "stress-related anxiety"],
+      "recommendations": ["Practice deep breathing", "Try meditation", "Maintain regular sleep schedule"],
+      "precautions": ["Limit caffeine intake", "Avoid alcohol", "Practice stress management"],
+      "workouts": ["Yoga", "Brisk walking", "Swimming", "Tai chi"],
+      "diets": ["Complex carbohydrates", "Omega-3 fatty acids", "Avoid excessive sugar", "Herbal teas"]
+    },
+    {
+      "symptom": "fatigue",
+      "description": "Persistent tiredness and lack of energy",
+      "severity": "moderate",
+      "urgency": "low",
+      "conditions": ["sleep disorders", "anemia", "thyroid disorders", "chronic fatigue syndrome"],
+      "recommendations": ["Maintain consistent sleep schedule", "Take short power naps", "Prioritize rest"],
+      "precautions": ["Avoid overexertion", "Monitor energy levels", "Stay hydrated"],
+      "workouts": ["Light stretching", "Short walks", "Gentle yoga", "Breathing exercises"],
+      "diets": ["Iron-rich foods", "B-vitamin complex", "Whole grains", "Lean proteins"]
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Hypertension",
+      "description": "High blood pressure that can lead to serious health complications",
+      "symptoms": ["headache", "dizziness", "chest pain", "shortness of breath"],
+      "causes": ["genetics", "poor diet", "lack of exercise", "stress"],
+      "treatments": ["medication", "lifestyle changes", "dietary modifications"],
+      "prevention": ["regular exercise", "healthy diet", "stress management"],
+      "urgency": "moderate",
+      "precautions": ["Monitor blood pressure regularly", "Limit sodium intake", "Avoid smoking"],
+      "recommended_workouts": ["Moderate cardio 30 min daily", "Strength training 2x/week", "Walking", "Swimming"],
+      "dietary_recommendations": ["DASH diet", "Low sodium foods", "Potassium-rich foods", "Limit processed foods"]
+    },
+    {
+      "name": "Type 2 Diabetes",
+      "description": "A condition where blood sugar levels are too high",
+      "symptoms": ["increased thirst", "frequent urination", "fatigue", "blurred vision"],
+      "causes": ["insulin resistance", "genetics", "obesity", "sedentary lifestyle"],
+      "treatments": ["medication", "insulin therapy", "lifestyle modifications"],
+      "prevention": ["healthy diet", "regular exercise", "weight management"],
+      "urgency": "moderate",
+      "precautions": ["Monitor blood sugar levels", "Check feet daily", "Regular eye exams"],
+      "recommended_workouts": ["Aerobic exercise 150 min/week", "Resistance training", "Walking after meals"],
+      "dietary_recommendations": ["Low glycemic index foods", "Fiber-rich vegetables", "Lean proteins", "Limit simple sugars"]
+    }
+  ],
+  "precautions": [
+    {
+      "condition": "hypertension",
+      "precautions": ["Monitor blood pressure daily", "Limit sodium to 2300mg/day", "Avoid smoking and alcohol", "Manage stress levels"],
+      "severity": "moderate",
+      "category": "lifestyle"
+    },
+    {
+      "condition": "diabetes",
+      "precautions": ["Check blood glucose regularly", "Inspect feet daily for cuts", "Take medications as prescribed", "Carry glucose tablets"],
+      "severity": "high",
+      "category": "medical"
+    }
+  ],
+  "workouts": [
+    {
+      "condition": "back pain",
+      "exercises": ["Cat-cow stretch", "Knee-to-chest stretch", "Pelvic tilt", "Bird dog exercise", "Wall sits"],
+      "duration": "20-30 minutes",
+      "frequency": "Daily",
+      "intensity": "low",
+      "category": "flexibility"
+    },
+    {
+      "condition": "anxiety",
+      "exercises": ["Deep breathing", "Progressive muscle relaxation", "Gentle yoga", "Walking meditation"],
+      "duration": "15-45 minutes",
+      "frequency": "2-3 times daily",
+      "intensity": "low",
+      "category": "recovery"
+    },
+    {
+      "condition": "hypertension",
+      "exercises": ["Brisk walking", "Swimming", "Cycling", "Light weight training"],
+      "duration": "30-45 minutes",
+      "frequency": "5 days per week",
+      "intensity": "moderate",
+      "category": "cardio"
+    }
+  ],
+  "diets": [
+    {
+      "condition": "hypertension",
+      "foods": ["Leafy greens", "Berries", "Bananas", "Oats", "Fish", "Seeds", "Dark chocolate"],
+      "avoid_foods": ["Processed foods", "Excess salt", "Sugary drinks", "Alcohol"],
+      "category": "therapeutic",
+      "instructions": ["Follow DASH diet principles", "Limit sodium to 1500mg daily", "Eat 5-9 servings of fruits and vegetables"]
+    },
+    {
+      "condition": "diabetes",
+      "foods": ["Non-starchy vegetables", "Whole grains", "Lean proteins", "Healthy fats", "Low-fat dairy"],
+      "avoid_foods": ["Sugary drinks", "White bread", "Processed snacks", "High-fat meats"],
+      "category": "therapeutic",
+      "instructions": ["Control portion sizes", "Eat regular meals", "Monitor carbohydrate intake"]
+    },
+    {
+      "condition": "anxiety",
+      "foods": ["Complex carbohydrates", "Omega-3 rich fish", "Probiotics", "Magnesium-rich foods", "Green tea"],
+      "avoid_foods": ["Caffeine", "Alcohol", "Processed foods", "High sugar foods"],
+      "category": "supportive",
+      "instructions": ["Eat regular balanced meals", "Stay hydrated", "Consider probiotic supplements"]
+    }
+  ]
+}

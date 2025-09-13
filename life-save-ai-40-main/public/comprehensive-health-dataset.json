@@ -1,0 +1,281 @@
+{
+  "symptoms": [
+    {
+      "symptom": "headache",
+      "description": "Pain or discomfort in the head, scalp, or neck region",
+      "severity": "moderate",
+      "urgency": "low",
+      "conditions": ["tension headache", "migraine", "cluster headache", "sinus infection", "high blood pressure", "eye strain"],
+      "recommendations": ["Rest in dark room", "Apply cold compress", "Stay hydrated", "Over-the-counter pain relievers"],
+      "precautions": ["Avoid bright lights", "Limit screen time", "Monitor pain intensity", "Track triggers"],
+      "workouts": ["Gentle neck stretches", "Light walking", "Deep breathing exercises", "Progressive muscle relaxation"],
+      "diets": ["Magnesium-rich foods", "Stay hydrated", "Avoid caffeine triggers", "Regular meal times"]
+    },
+    {
+      "symptom": "fever",
+      "description": "Elevated body temperature above normal range",
+      "severity": "moderate",
+      "urgency": "moderate",
+      "conditions": ["viral infection", "bacterial infection", "flu", "COVID-19", "pneumonia", "urinary tract infection"],
+      "recommendations": ["Rest and fluids", "Monitor temperature", "Seek medical care if high", "Fever reducers if needed"],
+      "precautions": ["Stay isolated", "Monitor symptoms", "Maintain hygiene", "Seek immediate care if very high"],
+      "workouts": ["Complete rest", "Light stretching when fever breaks", "Gradual return to activity"],
+      "diets": ["Clear fluids", "Electrolyte solutions", "Light soups", "Avoid dairy temporarily"]
+    },
+    {
+      "symptom": "cough",
+      "description": "Reflex action to clear airways of irritants",
+      "severity": "mild",
+      "urgency": "low",
+      "conditions": ["common cold", "bronchitis", "asthma", "allergies", "pneumonia", "acid reflux"],
+      "recommendations": ["Stay hydrated", "Use humidifier", "Throat lozenges", "Avoid irritants"],
+      "precautions": ["Cover mouth when coughing", "Wash hands frequently", "Avoid smoking", "Monitor for worsening"],
+      "workouts": ["Light walking if feeling well", "Avoid strenuous exercise", "Breathing exercises"],
+      "diets": ["Warm liquids", "Honey and ginger", "Avoid dairy if thick mucus", "Throat-soothing foods"]
+    },
+    {
+      "symptom": "shortness_of_breath",
+      "description": "Difficulty breathing or feeling unable to get enough air",
+      "severity": "severe",
+      "urgency": "high",
+      "conditions": ["asthma", "pneumonia", "heart disease", "anxiety", "COVID-19", "pulmonary embolism"],
+      "recommendations": ["Seek immediate medical attention", "Use prescribed inhaler", "Sit upright", "Stay calm"],
+      "precautions": ["Call emergency services if severe", "Have rescue medications ready", "Avoid triggers", "Monitor oxygen levels"],
+      "workouts": ["Avoid exercise until cleared", "Gentle breathing exercises", "Pulmonary rehabilitation if prescribed"],
+      "diets": ["Anti-inflammatory foods", "Avoid gas-producing foods", "Small frequent meals", "Stay hydrated"]
+    },
+    {
+      "symptom": "fatigue",
+      "description": "Persistent tiredness and lack of energy",
+      "severity": "moderate",
+      "urgency": "low",
+      "conditions": ["anemia", "thyroid disorders", "depression", "sleep disorders", "chronic fatigue syndrome", "diabetes"],
+      "recommendations": ["Prioritize sleep", "Gradual activity increase", "Stress management", "Medical evaluation"],
+      "precautions": ["Avoid overexertion", "Monitor energy levels", "Maintain sleep schedule", "Stay hydrated"],
+      "workouts": ["Light walking", "Gentle yoga", "Stretching", "Energy-building exercises"],
+      "diets": ["Iron-rich foods", "B-vitamin complex", "Whole grains", "Lean proteins", "Regular meals"]
+    },
+    {
+      "symptom": "chest_pain",
+      "description": "Pain or discomfort in the chest area",
+      "severity": "severe",
+      "urgency": "high",
+      "conditions": ["heart attack", "angina", "pneumonia", "acid reflux", "muscle strain", "anxiety"],
+      "recommendations": ["Seek immediate medical attention", "Call emergency services", "Take prescribed medications", "Rest"],
+      "precautions": ["Never ignore chest pain", "Have emergency contacts ready", "Know heart attack symptoms", "Carry medications"],
+      "workouts": ["Avoid exercise until cleared", "Cardiac rehabilitation if prescribed", "Gentle movements only"],
+      "diets": ["Heart-healthy diet", "Low sodium", "Avoid large meals", "Limit caffeine"]
+    },
+    {
+      "symptom": "abdominal_pain",
+      "description": "Pain or discomfort in the stomach area",
+      "severity": "moderate",
+      "urgency": "moderate",
+      "conditions": ["gastritis", "appendicitis", "food poisoning", "kidney stones", "gallbladder disease", "IBS"],
+      "recommendations": ["Rest", "Apply heat if muscle-related", "Avoid solid foods temporarily", "Seek medical care if severe"],
+      "precautions": ["Monitor pain intensity", "Watch for fever", "Stay hydrated", "Avoid triggering foods"],
+      "workouts": ["Avoid exercise during acute pain", "Gentle walking when improved", "Core strengthening when healed"],
+      "diets": ["BRAT diet initially", "Avoid spicy foods", "Small frequent meals", "Stay hydrated"]
+    },
+    {
+      "symptom": "nausea",
+      "description": "Feeling of sickness with urge to vomit",
+      "severity": "mild",
+      "urgency": "low",
+      "conditions": ["food poisoning", "pregnancy", "motion sickness", "medication side effects", "migraine", "gastritis"],
+      "recommendations": ["Rest", "Small sips of clear fluids", "Avoid strong odors", "Ginger or peppermint"],
+      "precautions": ["Stay hydrated", "Avoid triggering foods", "Rest in cool environment", "Monitor for dehydration"],
+      "workouts": ["Avoid exercise during nausea", "Light walking when feeling better", "Gentle stretching"],
+      "diets": ["Clear liquids", "BRAT diet", "Ginger tea", "Avoid greasy foods", "Small frequent meals"]
+    },
+    {
+      "symptom": "dizziness",
+      "description": "Feeling unsteady or lightheaded",
+      "severity": "moderate",
+      "urgency": "moderate",
+      "conditions": ["dehydration", "low blood pressure", "inner ear problems", "medication effects", "anemia", "heart problems"],
+      "recommendations": ["Sit or lie down", "Stay hydrated", "Avoid sudden movements", "Medical evaluation if persistent"],
+      "precautions": ["Avoid driving", "Prevent falls", "Stay hydrated", "Monitor blood pressure"],
+      "workouts": ["Avoid exercise during episodes", "Balance exercises", "Gradual position changes"],
+      "diets": ["Stay hydrated", "Avoid alcohol", "Regular meals", "Limit caffeine"]
+    },
+    {
+      "symptom": "joint_pain",
+      "description": "Pain and stiffness in joints",
+      "severity": "moderate",
+      "urgency": "low",
+      "conditions": ["arthritis", "injury", "gout", "lupus", "fibromyalgia", "overuse"],
+      "recommendations": ["Rest affected joint", "Apply ice or heat", "Gentle movement", "Anti-inflammatory medications"],
+      "precautions": ["Avoid overuse", "Maintain joint mobility", "Protect joints", "Monitor for swelling"],
+      "workouts": ["Low-impact exercises", "Swimming", "Stretching", "Strength training", "Range of motion exercises"],
+      "diets": ["Anti-inflammatory foods", "Omega-3 fatty acids", "Avoid processed foods", "Maintain healthy weight"]
+    }
+  ],
+  "diseases": [
+    {
+      "name": "Hypertension",
+      "description": "High blood pressure that can lead to serious health complications",
+      "symptoms": ["headache", "dizziness", "chest_pain", "shortness_of_breath", "fatigue"],
+      "causes": ["genetics", "poor diet", "lack of exercise", "stress", "smoking", "excessive alcohol"],
+      "treatments": ["ACE inhibitors", "beta blockers", "diuretics", "lifestyle changes", "dietary modifications"],
+      "prevention": ["regular exercise", "healthy diet", "stress management", "weight control", "limit alcohol"],
+      "urgency": "moderate",
+      "precautions": ["Monitor blood pressure regularly", "Limit sodium intake", "Avoid smoking", "Manage stress"],
+      "recommended_workouts": ["Moderate cardio 30 min daily", "Strength training 2x/week", "Walking", "Swimming"],
+      "dietary_recommendations": ["DASH diet", "Low sodium foods", "Potassium-rich foods", "Limit processed foods"]
+    },
+    {
+      "name": "Type 2 Diabetes",
+      "description": "A condition where blood sugar levels are too high due to insulin resistance",
+      "symptoms": ["excessive_thirst", "frequent_urination", "fatigue", "blurred_vision", "slow_healing"],
+      "causes": ["insulin resistance", "genetics", "obesity", "sedentary lifestyle", "age"],
+      "treatments": ["metformin", "insulin therapy", "lifestyle modifications", "blood sugar monitoring"],
+      "prevention": ["healthy diet", "regular exercise", "weight management", "stress reduction"],
+      "urgency": "moderate",
+      "precautions": ["Monitor blood sugar levels", "Check feet daily", "Regular eye exams", "Carry glucose tablets"],
+      "recommended_workouts": ["Aerobic exercise 150 min/week", "Resistance training", "Walking after meals"],
+      "dietary_recommendations": ["Low glycemic index foods", "Fiber-rich vegetables", "Lean proteins", "Limit simple sugars"]
+    },
+    {
+      "name": "Asthma",
+      "description": "Chronic respiratory condition causing breathing difficulties",
+      "symptoms": ["shortness_of_breath", "wheezing", "cough", "chest_pain", "fatigue"],
+      "causes": ["allergens", "air pollution", "respiratory infections", "genetics", "stress"],
+      "treatments": ["bronchodilators", "corticosteroids", "leukotriene modifiers", "trigger avoidance"],
+      "prevention": ["avoid triggers", "air quality control", "vaccinations", "stress management"],
+      "urgency": "high",
+      "precautions": ["Carry rescue inhaler", "Avoid triggers", "Monitor air quality", "Have action plan"],
+      "recommended_workouts": ["Swimming", "Walking", "Yoga", "Indoor exercises", "Warm-up important"],
+      "dietary_recommendations": ["Anti-inflammatory foods", "Omega-3 rich fish", "Avoid food triggers", "Stay hydrated"]
+    },
+    {
+      "name": "Depression",
+      "description": "Mental health disorder characterized by persistent sadness and loss of interest",
+      "symptoms": ["persistent sadness", "loss_of_interest", "fatigue", "sleep_disturbances", "concentration_problems"],
+      "causes": ["genetics", "brain chemistry", "life events", "medical conditions", "medications"],
+      "treatments": ["antidepressants", "psychotherapy", "cognitive behavioral therapy", "lifestyle changes"],
+      "prevention": ["stress management", "social support", "regular exercise", "healthy sleep"],
+      "urgency": "moderate",
+      "precautions": ["Monitor mood changes", "Stay connected socially", "Follow treatment plan", "Seek help when needed"],
+      "recommended_workouts": ["Aerobic exercise", "Yoga", "Walking outdoors", "Group fitness", "Dancing"],
+      "dietary_recommendations": ["Omega-3 fatty acids", "Complex carbohydrates", "B vitamins", "Limit alcohol"]
+    },
+    {
+      "name": "Osteoarthritis",
+      "description": "Joint disease involving breakdown of cartilage and underlying bone",
+      "symptoms": ["joint_pain", "stiffness", "swelling", "reduced_range_of_motion", "bone_spurs"],
+      "causes": ["age", "joint injury", "obesity", "genetics", "repetitive stress"],
+      "treatments": ["pain relievers", "physical therapy", "weight management", "joint injections"],
+      "prevention": ["maintain healthy weight", "exercise regularly", "protect joints", "avoid injury"],
+      "urgency": "low",
+      "precautions": ["Protect joints", "Maintain mobility", "Weight management", "Use assistive devices"],
+      "recommended_workouts": ["Low-impact aerobics", "Swimming", "Stretching", "Strength training", "Tai Chi"],
+      "dietary_recommendations": ["Anti-inflammatory foods", "Omega-3 fatty acids", "Antioxidants", "Maintain healthy weight"]
+    }
+  ],
+  "precautions": [
+    {
+      "condition": "hypertension",
+      "precautions": ["Monitor blood pressure daily", "Limit sodium to 2300mg/day", "Avoid smoking and excessive alcohol", "Manage stress levels", "Take medications as prescribed", "Regular medical checkups"],
+      "severity": "moderate",
+      "category": "lifestyle"
+    },
+    {
+      "condition": "diabetes",
+      "precautions": ["Check blood glucose regularly", "Inspect feet daily for cuts", "Take medications as prescribed", "Carry glucose tablets", "Regular eye exams", "Monitor for complications"],
+      "severity": "high",
+      "category": "medical"
+    },
+    {
+      "condition": "asthma",
+      "precautions": ["Carry rescue inhaler always", "Avoid known triggers", "Monitor air quality", "Have written action plan", "Regular follow-ups", "Keep medications updated"],
+      "severity": "high",
+      "category": "emergency"
+    },
+    {
+      "condition": "heart disease",
+      "precautions": ["Take medications regularly", "Monitor symptoms", "Emergency contact ready", "Avoid overexertion", "Manage risk factors", "Regular cardiology visits"],
+      "severity": "high",
+      "category": "medical"
+    }
+  ],
+  "workouts": [
+    {
+      "condition": "hypertension",
+      "exercises": ["Brisk walking", "Swimming", "Cycling", "Light weight training", "Yoga", "Dancing"],
+      "duration": "30-45 minutes",
+      "frequency": "5 days per week",
+      "intensity": "moderate",
+      "category": "cardio"
+    },
+    {
+      "condition": "diabetes",
+      "exercises": ["Walking", "Resistance training", "Swimming", "Cycling", "Stretching", "Balance exercises"],
+      "duration": "30-60 minutes",
+      "frequency": "Most days of week",
+      "intensity": "moderate",
+      "category": "mixed"
+    },
+    {
+      "condition": "arthritis",
+      "exercises": ["Water aerobics", "Gentle stretching", "Range of motion", "Tai Chi", "Swimming", "Low-impact aerobics"],
+      "duration": "20-30 minutes",
+      "frequency": "Daily",
+      "intensity": "low",
+      "category": "flexibility"
+    },
+    {
+      "condition": "depression",
+      "exercises": ["Aerobic exercise", "Walking outdoors", "Yoga", "Dance", "Group fitness", "Sports"],
+      "duration": "30-45 minutes",
+      "frequency": "5 times per week",
+      "intensity": "moderate",
+      "category": "cardio"
+    },
+    {
+      "condition": "back_pain",
+      "exercises": ["Cat-cow stretch", "Knee-to-chest stretch", "Pelvic tilt", "Bird dog exercise", "Wall sits", "Swimming"],
+      "duration": "15-30 minutes",
+      "frequency": "Daily",
+      "intensity": "low",
+      "category": "flexibility"
+    }
+  ],
+  "diets": [
+    {
+      "condition": "hypertension",
+      "foods": ["Leafy greens", "Berries", "Bananas", "Oats", "Fish", "Seeds", "Dark chocolate", "Garlic"],
+      "avoid_foods": ["Processed foods", "Excess salt", "Sugary drinks", "Alcohol", "Saturated fats"],
+      "category": "therapeutic",
+      "instructions": ["Follow DASH diet principles", "Limit sodium to 1500mg daily", "Eat 5-9 servings of fruits and vegetables", "Choose whole grains"]
+    },
+    {
+      "condition": "diabetes",
+      "foods": ["Non-starchy vegetables", "Whole grains", "Lean proteins", "Healthy fats", "Low-fat dairy", "Nuts"],
+      "avoid_foods": ["Sugary drinks", "White bread", "Processed snacks", "High-fat meats", "Refined sugars"],
+      "category": "therapeutic",
+      "instructions": ["Control portion sizes", "Eat regular meals", "Monitor carbohydrate intake", "Choose low glycemic foods"]
+    },
+    {
+      "condition": "heart_disease",
+      "foods": ["Fatty fish", "Olive oil", "Nuts", "Whole grains", "Fruits", "Vegetables", "Legumes"],
+      "avoid_foods": ["Trans fats", "Saturated fats", "Excess sodium", "Processed meats", "Refined sugars"],
+      "category": "therapeutic",
+      "instructions": ["Follow Mediterranean diet", "Limit saturated fat", "Increase omega-3 intake", "Control portions"]
+    },
+    {
+      "condition": "arthritis",
+      "foods": ["Fatty fish", "Leafy greens", "Berries", "Turmeric", "Ginger", "Olive oil", "Nuts"],
+      "avoid_foods": ["Processed foods", "Excess sugar", "Refined carbs", "Trans fats", "Excessive omega-6"],
+      "category": "supportive",
+      "instructions": ["Focus on anti-inflammatory foods", "Maintain healthy weight", "Stay hydrated", "Consider supplements"]
+    },
+    {
+      "condition": "depression",
+      "foods": ["Fatty fish", "Complex carbohydrates", "Probiotics", "Dark leafy greens", "Nuts", "Seeds"],
+      "avoid_foods": ["Alcohol", "Caffeine excess", "Processed foods", "High sugar foods", "Trans fats"],
+      "category": "supportive",
+      "instructions": ["Eat regular balanced meals", "Stay hydrated", "Consider probiotic supplements", "Limit alcohol"]
+    }
+  ]
+}
